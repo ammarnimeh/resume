@@ -1,0 +1,60 @@
+body {
+    background-image: url("wall.jpg");
+    background-size: cover;
+}
+
+.h1_1 {
+    color: #AA2CAA;
+    font-size: 60px;
+    font-family:sans-serif;
+    margin-top: 10px;
+}
+
+.poss {
+    background-color: white;
+    width: 1000px;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    margin-left: 210px;
+    margin-top: 130px;
+    border-color: #AA2CAA;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.form {
+    margin-top: -30px;
+}
+
+.name,
+.email,
+.job,
+.tel {
+    background-color: white;
+    border-top-width: 0px;
+    border-left-width:0px;
+    border-right-width:0px ;
+    border-bottom-width: 1;
+    border-bottom-color: #AA2CAA;
+    width: 600px;
+    margin-top: 50px;
+}
+.name:focus,
+.email:focus,
+.job:focus,
+.tel:focus{
+    outline: none;
+}
+.submit,
+.reset {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #AA2CAA;
+    border-radius: 10px;
+    border-width: 0px;
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
